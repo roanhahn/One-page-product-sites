@@ -1,6 +1,10 @@
 // JavaScript Document
 
-
+window.onload = function() {
+        skrollr.init({
+        forceHeight: false
+});
+}
 
 $(document).ready(function()
 {
