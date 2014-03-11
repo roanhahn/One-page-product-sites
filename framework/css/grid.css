@@ -1,0 +1,284 @@
+
+html, body
+{
+	height:100%;
+	position:relative;	
+}
+body
+{
+	font-size-adjust:inherit;
+    font-stretch:inherit;
+    font-style:inherit;
+    font-variant:inherit;
+    font-weight:inherit;
+    line-height:inherit;
+	-moz-font-feature-settings:inherit;
+    -moz-font-language-override:inherit;
+	font-size:100%;
+	cursor:default;
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, p, ul, dl
+{
+	margin:0;
+	display:block;
+}
+figure
+{
+	margin:0;
+	padding:0;	
+}
+.text-centered
+{
+	text-align:center;	
+}
+small
+{
+	display:block;	
+}
+img
+{
+	max-width:100%;
+	width:100%;
+	display:block;
+}
+*
+{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	outline:none;
+}
+.container
+{
+	max-width:90%;
+	min-width:280px;
+	margin:0 auto;
+	height:100%;
+	-moz-box-sizing:border-box; /* Firefox */
+}
+.clearfix
+{
+	overflow:hidden;	
+}
+.clearfix:after
+{
+	content:"";
+	display:block;
+	clear:both;
+	height:0px;
+	line-height:0;
+	overflow:hidden;
+}
+.row
+{
+	min-height:80%;
+	background-color:#fff;
+	padding:120px 2%;
+}
+.autoheight
+{
+	min-height: inherit;
+}
+.container [class*="span"]
+{
+	margin-left:2%;
+	float:left;
+}
+.container [class*="span"]:first-child
+{
+	margin-left:0%;
+}
+.span1
+{
+	width:100%;	
+}
+.span2
+{
+	width:49%;
+}
+.span3
+{
+	width:32%;
+}
+.span4
+{
+	width:23.5%;
+}
+.span5
+{
+	width:18.4%;
+}
+.span6
+{
+	width:15%;
+}
+.span7
+{
+	width:12.57%;
+}
+.span8
+{
+	width:10.75%;
+}
+.span9
+{
+	width:9.33%;
+}
+.span10
+{
+	width:8.2%;
+}
+.span11
+{
+	width:7.27%;
+}
+.span12
+{
+	width:6.5%;
+}
+.span_2_3
+{
+	width:66%;	
+}
+.span_5_8
+{
+	width:61.75%;	
+}
+.span_3_8
+{
+	width:36.25%;	
+}
+.offset_3
+{
+	margin-left:17% !important;	
+}
+.offset_5_8
+{
+	margin-left:19.13% !important;	
+}
+.absoluteCenter
+{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:95%;
+	max-width:1180px;
+	text-align:center;
+}
+.illuRound
+{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	overflow:hidden;
+}
+.noMargin
+{
+	margin-bottom:0 !important;	
+}
+.noMarginLeft
+{
+	margin-left:0 !important;	
+}
+.noPadding
+{
+	padding-bottom:0 !important;	
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; 
+	overflow: hidden;
+	border:10px solid #fff;
+}
+ .video-container iframe
+ {
+	 
+ }
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	border:0;
+}
+
+.width50
+{
+	max-width:50%;
+	float:none;
+	margin:0 auto !important;	
+}
+.width75
+{
+	max-width:75%;
+	float:none;
+	margin:0 auto !important;	
+}
+
+/* IPAD */
+@media all and (min-width: 769px) and (max-width: 1024px) 
+{
+  	
+}
+
+/* IPAD */
+@media screen and (min-width : 541px) and (max-width : 783px)  
+{
+  	.contentContainer .span4
+	{
+		display:block;
+		float:none;
+		margin-left:0% !important;
+		width:100%;
+		text-align:center;
+		padding-bottom:20%;
+	}
+}
+
+/* IPHONE LANDSCAPE*/
+@media all and (min-width: 321px) and (max-width: 540px) 
+{
+	.container
+	{		
+		max-width:540px;
+	}
+	.container [class*="span"]
+	{
+		display:block;
+		float:none;
+		margin-left:0% !important;
+		width:100%;
+		text-align:center;
+	}
+	.contentContainer .span3, .contentContainer .span4
+	{
+		padding-bottom:20%;
+	}
+}
+
+/* IPHONE PORTRAIT*/
+@media all and (min-width: 0px) and (max-width: 320px) 
+{
+	.container
+	{
+		
+	}
+	.container [class*="span"]
+	{
+		display:block;
+		float:none;
+		margin-left:0% !important;
+		width:100%;
+		text-align:center;
+	}
+	.contentContainer .span1, .contentContainer .span2, .contentContainer .span3, .contentContainer .span4
+	{
+		padding-bottom:15%;
+	}
+}

@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700);
+
+body
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#5c4b42;
+}
+::selection {
+	background:rgba(0,0,0,0.5);
+	color:#FFF;
+	}
+::-moz-selection {
+	background:rgba(0,0,0,0.5);
+	color:#FFF;
+}
+h1
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform:uppercase;
+	font-size:375%;
+	padding:0 0 30px 0;
+}
+h2
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform:uppercase;
+	font-size:275%;
+	text-align:center;
+	padding:0 0 20px 0;
+}
+h3
+{
+	text-transform:uppercase;
+	text-align:center;
+	display:block;
+	font-size:156.3%;
+	padding:0 0 30px 0;
+	letter-spacing:0.05em;	
+}
+#team h3
+{
+	padding-bottom:0px;	
+}
+h4
+{
+	font-family: 'EB Garamond', serif;
+	font-size:156.3%;
+	font-weight:normal;
+	font-style:italic;
+	letter-spacing:0.05em;
+	text-transform:capitalize;
+	text-align:center;
+}
+h5
+{
+	font-family: 'EB Garamond', serif;
+	font-size:100%;
+	font-weight:normal;
+	font-style:italic;
+	letter-spacing:0.05em;
+	text-transform:capitalize;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+span.lineLeft
+{
+	border-top:1px solid #fff;
+	display:inline-block;
+	width:20px;
+	position:relative;
+	margin:0 20px 0 0;
+	top:-5px;
+}
+
+span.lineRight
+{
+	border-top:1px solid #fff;
+	display:inline-block;
+	width:20px;
+	position:relative;
+	margin:0 0 0 20px;
+	top:-5px;
+}
+.lineDark
+{
+	border-color:#5c4b42 !important;
+}
+
+
+p
+{
+	line-height:200%;
+	font-size:112.5%;	
+	/*font-family: 'EB Garamond', serif;*/
+}
+
+/* IPAD LANDSCAPE */
+@media only screen and (min-width: 769px) and (max-width: 1024px) 
+{
+  	
+}
+
+/* IPAD PORTRAIT */
+@media only screen and (min-width: 541px) and (max-width: 768px) 
+{
+	h1
+	{
+		font-size:275%;	
+	}
+}
+
+
+/* IPHONE LANDSCAPE*/
+@media only screen and (min-width: 321px) and (max-width: 540px) 
+{
+	h1
+	{
+		font-size:150%;
+	}
+	h2
+	{
+		font-size:93.8%;
+	}
+}
+
+/* IPHONE PORTRAIT*/
+@media only screen and (min-width: 0px) and (max-width: 320px) 
+{
+	h1
+	{
+		font-size:150%;
+	}
+	h2
+	{
+		font-size:93.8%;
+	}
+}
