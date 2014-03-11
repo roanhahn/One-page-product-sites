@@ -21,6 +21,10 @@ $(document).ready(function()
 	{
 		$('html, body').animate({scrollTop:$(".video").offset().top},1000);
 	});
+	$(".btn_gallery").click(function()
+	{
+		$('html, body').animate({scrollTop:$(".gallery").offset().top},1000);
+	});
 	$(".btn_reviews").click(function()
 	{
 		$('html, body').animate({scrollTop:$(".reviews").offset().top},1000);
